@@ -1,0 +1,217 @@
+*{  
+  margin:0;
+  padding:0;
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+
+}
+
+
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+input {
+	width:75%;
+	float:left;
+	}
+	#formurario1 p {
+		text-align:left;
+	}
+
+#formurario1 {
+	
+	width:500px;
+	margin:0 auto;
+	
+	padding-bottom:40px;
+	
+	
+}
+
+
+
+*{  
+  margin:0;
+  padding:0;
+}
+
+body{
+  
+  background-color:#f0f0f8;
+  font-family:helvetica;
+}
+
+
+
+#bg{
+  position:relative;
+  top:;
+  height:665px;
+  width:100%;
+  
+  background:url('https://cdn.pixabay.com/photo/2016/04/15/11/45/light-1330837_960_720.jpg') center no-repeat;
+  background-size:cover;
+  margin-left:auto;
+  margin-right:auto; 
+  border:#fff 1px solid;
+padding-top:100px;
+  }
+
+.module{
+  position:relative;
+  top:%;    
+  height:95%;
+  width:450px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:4px;
+  background:RGBA(255,255,255,1);
+    
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+  
+}
+
+.module ul{
+  list-style-type:none;
+  margin:;
+}
+
+.tab:first-child{  
+  -webkit-border-radius: 5px 0px 0px 0px;
+  border-radius: 5px 0px 0px 0px;
+}
+
+.tab:last-child{  
+  -webkit-border-radius: 0px 5px 0px 0px;
+  border-radius: 0px 5px 0px 0px;
+}
+
+.tab:hover{  
+  background-color:rgba(0,0,0,.1);
+}
+
+.activeTab{
+  background:#fff;
+}
+
+.activeTab .icon{
+  opacity:1;
+}
+
+.icon{
+  height:24px;
+  width:24px;
+  opacity:.1;
+}
+
+.form{
+  float:left;
+  height:76%;
+  width:100%;
+  box-sizing:border-box;
+  padding:20px;
+}
+
+.textbox{
+  height:50px;
+  width:100%;
+  border-radius:4px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:15px;
+}
+
+.textbox:focus{
+  outline:none;
+   border:rgba(24,149,215,1) 2px solid;
+   color:rgba(24,149,215,1);
+}
+
+.button{
+  height:50px;
+  width:100%;
+  border-radius:4px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:10px;
+  background:#272320;
+  color:#FFF;
+  font-weight:bold;
+  font-size: 15pt;
+  transition:background .4s;
+  cursor:pointer;
+}
+
+.button:hover{
+  background:#30448A  ;
+  
+}
+
+.tab{
+  float:left;
+  height:60px;
+  width:25%;
+  padding-top:10px;
+  box-sizing:border-box;
+  background:#eeeeee;  
+  text-align:center;
+  cursor:pointer;
+  transition:background .4s;
+}
+
+
+
+
+
+
+
+
+
+
